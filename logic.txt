@@ -1,0 +1,13 @@
+A user can have many products
+A product can belong to many users
+Many to many relationship aka join table can be contained within cart
+
+BUT 
+
+A cart can only belong to one user
+A user can only have one cart
+
+SO 
+
+The cart cannot be a join table
+Instead, create prod_cart to contain many to many relationship

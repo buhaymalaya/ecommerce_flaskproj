@@ -1,0 +1,16 @@
+This assignment will be a culmination of everything we’ve learned this week about Flask, Python.
+
+Build an e-commerce application with the following things to be included:
+
+X - A route that shows a list of all available products
+X - A route which shows a single product (with the information of the product you just requested)
+X - User should be able to add a product to their cart, but only if they are logged in
+X - A route (cart) that shows a list of products you’ve added into your cart as well as the total of all the items in your cart
+X - Add a route that, when called handles functionality that removes all items from your cart one time. Also a route, when hit, it removes a specific product object from the cart.
+X - Create db Models for user, cart and products.
+
+Extra Challenges:
+X - Incorporate schemas for data validation and serialization
+- Enhance your responses with nested schemas
+X - Group your routes into classes using MethodViews
+- Specify all your response status codes
